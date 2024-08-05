@@ -1,0 +1,7 @@
+date,                       File_id,   Data_size,   Embedding_dim,  Latent_dim, Epochs, kl_weight,  Encoder,    Decoder,    kl loss,    reconstruction loss,    Total loss
+Sat Jul 27 16:38:07 2024,   BEST_01,   950000,      10,             8,          10/10,  0.007,      2,          2,          2.024,      0.337,                  0.351
+Tue Jul 30 12:08:52 2024,   BEST_02,   950000,      10,             16,         10/10,  0.02,       2,          2,          0.896,      0.318,                  0.336
+Mon Jul 29 16:44:02 2024,   BEST_03,   950000,      10,             16,         10/10,  0.002,      2,          2,          4.107,      0.173,                  0.181
+Fri Jul 26 22:48:31 2024,   BEST_04,   950000,      10,             8,          5/5,    0.05,       2,          2,          1.268,      0.400,                  0.425
+
+
