@@ -341,7 +341,7 @@ def main(args):
 
     
 ###DATA TRANSFORMATION ###
-
+    sys.path.append("/Users/florianmauger/Documents/IGH_Stage/Machine_Learning_Model_Test/PYTHON-SCRIPT")
     import DataFrame_encoder as DFE
     importlib.reload(DFE)
     df = DFE.DataFrame_encoder("train.txt")
