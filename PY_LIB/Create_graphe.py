@@ -34,7 +34,7 @@ def get_losses(fid):
 
     reconstruction_loss_list,kl_loss_list,total_loss_list = [], [], []
 
-    with open(f"VAEs_results/{fid}/VAE_output.log") as f:
+    with open(f"../VAEs_results/{fid}/VAE_output.log") as f:
         lines = f.readlines()
 
     print(len(lines))        
